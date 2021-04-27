@@ -1,0 +1,32 @@
+.container{display: grid;grid-template-columns: 1fr 1fr 1fr;grid-template-rows:1fr;}
+.nom{font-size: 26px;font-style: italic;border: double 1px orange;width: 220px;background-color: orange;color: white;
+position: relative;bottom: 390px;text-align: center;left: -30px;}
+.prix{font-size: 25px;font-variant: small-caps;position: relative;bottom: 380px;color: white;
+border: double 1px blue;width: 130px;background-color: blue;text-align: center;left: -30px;}
+.achat{font-size: 30px;font-variant:small-caps;background-color: green;text-align: center;position: relative;top:-100px;}
+a{text-decoration: none;color: white;}
+.source{color:green;font-size: 35px;position: relative;top:-50px;}
+.site{color: blue;font-size: 20px;}
+.a,.b,.c{margin: 1px;border: double 1px #ddd;padding: 1px;text-align: right;}
+.container2{display: grid;grid-template-columns: 1fr 1fr 1fr;grid-template-rows:1fr;background-size: cover;}
+.nom1{font-size: 26px;font-style: italic;border: double 1px orange;width: 220px;background-color: orange;color: white;
+position: relative;top:-360px; text-align: center;right:30px;}
+.prix1{font-size: 25px;font-variant: small-caps;position: relative;color: white;position: relative;top:-350px;left: -30px;
+border: double 1px blue;width: 120px;background-color: blue;text-align: center;}
+.achat1{font-size: 30px;font-variant:small-caps;background-color: green;text-align: center;position: relative;top:-20px;}
+.source1{color:green;font-size: 35px;position: relative;top:-10px;}
+.d,.e,.f{margin: 1px;border: double 1px #ddd;padding: 1px;}
+.container3{display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;grid-template-rows: 1fr;
+text-align: center;}
+.nm{background-color: orange;font-size: 25px;color: white;margin: 10px;width: 300px;}
+.pr{color: white;background-color: blue;margin:10px;font-size: 25px;width: 300px;}
+.ach{background-color: orange;font-size: 30px;margin:10px;width: 300px;}
+.achat3{font-size: 30px;font-variant:small-caps;background-color: green;text-align: center;position: relative;top:-5px;}
+.g,.h,.i,.j,.k,.l{margin: 1px;border: double 1px #ddd;padding: 1px;}
+.logo{position: relative;top:-410px;left: -450px;}
+.logo1{position: relative;top:-220px;left: 30px;}
+
+@media (max-width: 720px)
+{
+	.container,.container2,.container3{display:block;grid-template-columns: 1fr;grid-template-rows: 0fr;}
+}
